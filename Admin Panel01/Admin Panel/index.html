@@ -1,0 +1,1789 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="stylesheet" href="why.css">
+   <link rel="stylesheet" href="media.css">
+</head>
+<body>
+     <div class="d-flex align-items-start">
+        <div class="nav flex-column" data-bs-target="#offcanvas">
+           
+            <div class="logo text-light d-sm-none d-lg-block">   
+                <img src="img/logo-removebg-preview.png"  alt="" style="height: 100px; width: 130px; margin: auto; align-items: center;">
+            </div>
+          
+            <div class="simplebar-content">
+                <li class="nav-item list-unstyled text-light">
+                    <a class="nav-link text-light" href="">
+                        <i class="bi bi-speedometer2 p-2 text-secondary" style="font-size: 20px;"></i>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li class="nav-title text-secondary fw-bolder fs-6  list-unstyled p-3">THEME</li>
+                <li class="nav-item list-unstyled">
+                    <a class="nav-link text-light list-unstyled" href="">
+                        <i class="bi bi-droplet p-2 text-secondary" style="font-size: 20px;"></i>
+                        <span>Colors</span>
+    
+                    </a>
+                </li>
+                <li  class="nav-item list-unstyled">
+                    <a class="nav-link text-light list-unstyled" href="">
+                        <i class="bi bi-pencil p-2 text-secondary" style="font-size: 20px;"></i>
+                        <span>Typography</span>
+    
+                    </a>
+                </li>
+                <li class="nav-title text-secondary fw-bolder fs-6  p-3">COMPONENTS</li>
+    
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item mb-3 bg-dark">
+                      <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button text-light" style="background-color: #212631;" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne ">
+                            <i class="bi bi-puzzle p-2 text-secondary" style="font-size: 20px;"></i>
+                            base
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show">
+                        <div class="accordion-body text-light" style="background-color: #212631;">
+                            <li class="p-2"> <span class="mm pe-2">◦</span> Accordion</li>
+                            <li class="p-2"><span class="mm pe-2">◦</span> Breadcrumb</li>
+                            <li class="p-2"><span class="mm pe-2">◦</span> Cards</li>
+                            <li class="p-2"><span class="mm pe-2">◦</span> Carousel</li>
+                            <li class="p-2"><span class="mm pe-2">◦</span> Collapse</li>
+                            <li class="p-2"><span class="mm pe-2">◦</span> List Group</li>
+                            <li class="p-2"><span class="mm pe-2">◦</span> Navs & Tabs</li>
+                            <li class="p-2"><span class="mm pe-2">◦</span> Pagination</li>
+                            <li class="p-2"><span class="mm pe-2">◦</span> Placeholder</li>
+                            <li class="p-2"><span class="mm pe-2">◦</span> Popovers</li>
+                            <li class="p-2"><span class="mm pe-2">◦</span> Progress</li>
+                            <li class="p-2"><span class="mm pe-2">◦</span> Spinners</li>
+                            <li class="p-2"><span class="mm pe-2">◦</span> Tables</li>
+                            <li class="p-2"><span class="mm pe-2">◦</span> Tooltips</li>
+                        </div>
+                      </div>
+                    </div>
+    
+    
+                    <div class="accordion-item  mb-3 bg-dark text-light">
+                        <h2 class="accordion-header" id="headingtwo">
+                          <button class="accordion-button  text-light" style="background-color: #212631;" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetwo">
+                            <i class="bi bi-cursor p-2 text-secondary" style="font-size: 20px;"></i>
+                            buttons
+                          </button>
+                        </h2>
+                        <div id="collapsetwo" class="accordion-collapse collapse show">
+                          <div class="accordion-body" style="background-color: #212631;">
+                              <li class="p-2"><span class="mm pe-2">◦</span>Buttons</li>
+                              <li class="p-2"><span class="mm pe-2">◦</span>Buttons group</li>
+                              <li class="p-2"><span class="mm pe-2">◦</span>Loading buttons</li>
+                              <li class="p-2"><span class="mm pe-2">◦</span>Dropdowns</li>
+                             
+                            
+                          </div>
+                        </div>
+                      </div>
+    
+                      <div class="accordion-item  mb-3 bg-dark text-light">
+                        <h2 class="accordion-header" id="headingthree">
+                          <button class="accordion-button  text-light" style="background-color: #212631;" type="button" data-bs-toggle="collapse" data-bs-target="#collapsethree">
+                            <i class="bi bi-card-heading p-2 text-secondary" style="font-size: 20px;"></i>
+                            Forms
+                          </button>
+                        </h2>
+                        <div id="collapsethree" class="accordion-collapse collapse show" aria-labelledby="headingthree" data-bs-parent="#accordionExample">
+                          <div class="accordion-body" style="background-color: #212631;">
+                              <li class="p-2"><span class="mm pe-2">◦</span>Form control</li>
+                              <li class="p-2"><span class="mm pe-2">◦</span>Select</li>
+                              <li class="p-2"><span class="mm pe-2">◦</span>Multi Select</li>
+                              <li class="p-2"><span class="mm pe-2">◦</span>Checks & radio</li>
+                              <li class="p-2"><span class="mm pe-2">◦</span>Range</li>
+                              <li class="p-2"><span class="mm pe-2">◦</span>Input group</li>
+                              <li class="p-2"><span class="mm pe-2">◦</span>Floating labels</li>
+                          </div>
+                        </div>
+                      </div>
+    
+    
+                      <div class="accordion-item  mb-3 bg-dark text-light">
+                        <h2 class="accordion-header" id="headingfore">
+                          <button class="accordion-button  text-light" style="background-color: #212631;" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefore">
+                            <i class="bi bi-star p-2 text-secondary" style="font-size: 20px;"></i>
+                          Icons
+                          </button>
+                        </h2>
+                        <div id="collapsefore" class="accordion-collapse collapse show">
+                          <div class="accordion-body" style="background-color: #212631;">
+                            <li class="p-2"><span class="mm pe-2">◦</span>Coreul Icons</li>
+                            <li class="p-2"><span class="mm pe-2">◦</span>Coreul icons-brand</li>
+                            <li class="p-2"><span class="mm pe-2">◦</span>Coreul icons-flag</li>
+            
+                          </div>
+                        </div>
+                      </div>
+    
+                      <div class="accordion-item  mb-3 bg-dark text-light">
+                        <h2 class="accordion-header" id="headingfive">
+                          <button class="accordion-button  text-light" style="background-color: #212631;" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefive">
+                            <i class="bi bi-bell p-2 text-secondary" style="font-size: 20px;"></i>
+                          notification
+                          </button>
+                        </h2>
+                        <div id="collapsefive" class="accordion-collapse collapse show">
+                          <div class="accordion-body" style="background-color: #212631;">
+                            <li class="p-2"><span class="mm pe-2">◦</span>Alerts</li>
+                            <li class="p-2"><span class="mm pe-2">◦</span>badge</li>
+                            <li class="p-2"><span class="mm pe-2">◦</span>Modals</li>
+                            <li class="p-2"><span class="mm pe-2">◦</span>Toasts</li>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+    
+    
+                <li class="nav-item list-unstyled">
+                    <a class="nav-link active text-light" href="">
+                        <i class="bi bi-calculator p-2 text-secondary" style="font-size: 20px;"></i>
+                        <span>widgets</span>
+                        <span class="hh ps-5">
+                        <span class="badge bg-info text-uppercase ms-auto">new</span>
+                    </span>
+                    </a>
+    
+                </li>
+                <li class="nav-divider list-unstyled"></li>
+                <li class="nav-title text-secondary fs-6 fw-bolder list-unstyled p-3">PLUGINS</li>
+    
+                <li class="nav-item  text-light list-unstyled">
+                    <a class="nav-link  text-light" href="">
+                        <i class="bi bi-calendar2-week p-2 text-secondary" style="font-size: 20px;"></i>
+                        <span>calender</span>
+                       <span class="hh ps-5">
+                        <span class="badge bg-danger ms-auto">PRO</span>
+                    </span>
+    
+                    </a>
+                </li>
+    
+                <li class="nav-item  text-light list-unstyled">
+                    <a class="nav-link  text-light" href="">
+                        <i class="bi bi-pie-chart p-2 text-secondary" style="font-size: 20px;"></i>
+                        <span>Charts</span>
+    
+                    </a>
+                </li>
+                <li class="nav-item  text-light list-unstyled">
+                    <a class="nav-link  text-light" href="">
+                        <i class="bi bi-table p-2 text-secondary" style="font-size: 20px;"></i>
+                        <span>Data tables</span>
+                        <span class="hh ps-4">
+                        <span class="badge bg-danger ms-auto">PRO</span>
+                    </span>
+    
+                    </a>
+                </li>
+                <li class="nav-item text-light list-unstyled">
+                    <a class="nav-link  text-light" href="">
+                        <i class="bi bi-map p-2 text-secondary" style="font-size: 20px;"></i>
+                        <span >Google maps</span>
+                        <span class="hh ps-3">
+                        <span class="badge bg-danger ms-auto">PRO</span>
+                    </span>
+    
+                    </a>
+                </li>
+                <li class="nav-title text-secondary fs-6 fw-bolder list-unstyled p-3">EXTRAS</li>
+    
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item  mb-3 bg-dark text-light">
+                      <h2 class="accordion-header" id="headingseven">
+                        <button class="accordion-button  text-light" style="background-color: #212631;" type="button" data-bs-toggle="collapse" data-bs-target="#collapseseven">
+                            <i class="bi bi-bell p-2 text-secondary" style="font-size: 20px;"></i>
+                          pages
+                          </button>
+                      </h2>
+                      <div id="collapseseven" class="accordion-collapse collapse show">
+                        <div class="accordion-body" style="background-color: #212631;">
+                            <li class="p-2"><i class="bi bi-box-arrow-left"></i><span class="p-2">Login</span></li>
+                            <li class="p-2"><i class="bi bi-box-arrow-left"></i><span class="p-2">Register</span></li>
+                            <li class="p-2"><i class="bi bi-bug"></i><span class="p-2">Error 404</span></li>
+                            <li class="p-2"><i class="bi bi-bug"></i><span class="p-2">Error 500</span></li>
+                       
+                        </div>
+                      </div>
+                    </div>
+    
+    
+                    <div class="accordion-item  mb-3 bg-dark text-light">
+                        <h2 class="accordion-header" id="headingten">
+                          <button class="accordion-button  text-light" style="background-color: #212631;" type="button" data-bs-toggle="collapse" data-bs-target="#collapseten">
+                            <i class="bi bi-stack p-2 text-secondary"style="font-size: 20px;"></i>
+                            APPS
+                            </button>
+                        </h2>
+                        <div id="collapseten" class="accordion-collapse collapse show">
+                          <div class="accordion-body" style="background-color: #212631;">
+                              <li class="p-2"><i class="bi bi-box-arrow-left"></i><span class="p-2" >Login</span></li>
+                              <li class="p-2"><i class="bi bi-box-arrow-left"></i><span class="p-2">Register</span></li>
+                              <li class="p-2"><i class="bi bi-bug"></i><span class="p-2">Error 404</span></li>
+                              <li class="p-2"><i class="bi bi-bug"></i><span class="p-2">Error 500</span></li>
+                          </div>
+                        </div>
+                      </div>
+    
+    
+    
+    
+                      <div class="accordion-item  mb-3 bg-dark text-light">
+                        <h2 class="accordion-header" id="headingwhat">
+                          <button class="accordion-button  text-light" style="background-color: #212631;" type="button" data-bs-toggle="collapse" data-bs-target="#collapsewhat">
+                            <i class="bi bi-file-earmark-bar-graph-fill text-secondary p-2" style="font-size: 20px;"></i>
+                            Invoicing
+                            </button>
+                        </h2>
+                        <div id="collapsewhat" class="accordion-collapse collapse show">
+                          <div class="accordion-body" style="background-color: #212631;">
+                            <li class="nav-item text-light list-unstyled">
+                                <a class="nav-link  text-light" href="">
+                               
+                                    <span >Invoice</span>
+                                    <span class="oo ps-5">
+                                    <span class="badge bg-danger ms-auto">PRO</span>
+                                </span>
+                
+                                </a>
+                            </li>
+    
+    
+                          </div>
+                        </div>
+                      </div>
+    
+    
+                      
+    
+                      <div class="accordion-item  mb-3 bg-dark text-light">
+                        <h2 class="accordion-header" id="headingnyt">
+                          <button class="accordion-button  text-light" style="background-color: #212631;" type="button" data-bs-toggle="collapse" data-bs-target="#collapsenyt">
+                            <i class="bi bi-envelope-open-fill p-2 text-secondary"style="font-size: 20px;"></i>
+                            Email
+                            </button>
+                        </h2>
+                        <div id="collapsenyt" class="accordion-collapse collapse show">
+                          <div class="accordion-body" style="background-color: #212631;">
+                            <li class="nav-item text-light list-unstyled">
+                                <a class="nav-link  text-light" href="">
+                               
+                                    <span >Inbox</span>
+                                    <span class="oo" style="padding-left: 70px;">
+                                    <span class="badge bg-danger ms-auto">PRO</span>
+                                </span>
+                                <a class="nav-link  text-light" href="">
+                               
+                                    <span>Message</span>
+                                    <span class="oo ps-5">
+                                    <span class="badge bg-danger ms-auto">PRO</span>
+                                </span>
+                
+                                <a class="nav-link  text-light" href="">
+                               
+                                    <span>Compose</span>
+                                    <span class="oo ps-5">
+                                    <span class="badge bg-danger ms-auto">PRO</span>
+                                </span>
+                
+                
+                                </a>
+                            </li>
+    
+    
+                          </div>
+                        </div>
+                      </div>
+    
+               </div>
+    
+    
+    
+    
+               <li class="nav-item list-unstyled">
+                <a class="nav-link text-light list-unstyled" href="">
+                    <i class="bi bi-file-earmark-bar-graph-fill text-secondary" style="font-size: 20px;  padding-left: 10px;"></i>
+                    <span class="ps-2">Docs</span>
+    
+                </a>
+            </li>
+    
+    
+               <li class="nav-title pt-2 pb-2 fw-bolder ps-3">
+                
+                <span class="text-secondary">SYSTEM UTILIZATION</span>
+               </li>
+               <li class="nav-item px-3 pb-2 d-narrow-none">
+                <div class="text-uppercase fw-bold text-light">CPU usage</div>
+                <div class="progress progress-thin" style="height: 6px;">
+                        <div class="progress-bar bg-info" role="progressbar" style="width: 25%;  height: 6px;"></div>
+                </div>
+                <div class="small text-secondary fw-bold ">358 processes. 1/4cores</div>
+               </li>
+               <li class="nav-item px-3 pb-2 d-narrow-none">
+                <div class="text-uppercase fw-bold text-light">CPU usage</div>
+                <div class="progress progress-thin" style="height: 6px;">
+                        <div class="progress-bar bg-warning" role="progressbar" style="width: 25%;  height: 6px;"></div>
+                </div>
+                <div class="small text-secondary fw-bold ">358 processes. 1/4cores</div>
+               </li>
+               <li class="nav-item px-3 pb-2 d-narrow-none">
+                <div class="text-uppercase fw-bold text-light">CPU usage</div>
+                <div class="progress progress-thin" style="height: 6px;">
+                        <div class="progress-bar bg-danger" role="progressbar" style="width: 25%; height: 6px;"></div>
+                </div>
+                <div class="small text-secondary fw-bold ">358 processes. 1/4cores</div>
+               </li>
+    
+    
+    
+              
+    
+    
+    
+    
+               </div>       
+        </div>
+        <div class="offcanvas  offcanvas-start d-sm-block d-lg-none" style="overflow-y:scroll;  background-color: #212631;" tabindex="-1" id="offcanvas">
+            <div class="offcanvas-header d-flex flex-row-reverse w-50 d-sm-block   d-lg-none" style="overflow-y:scroll; background-color: #212631;">
+        
+                <button class="btn btn-close ps-5"   data-bs-dismiss="offcanvas"></button>
+            </div>
+            <div class="offcanvas-body" style="background-color: #212631;">
+                <div class="logo text-light">   
+                    <img src="img/logo-removebg-preview.png"  alt="" style="height: 100px; width: 130px; margin: auto; align-items: center;">
+                </div>
+               <div class="simplebar-content" style="background-color: #212631;">
+                <li class="nav-item list-unstyled text-light p-2">
+                    <a class="nav-link text-light" href="">
+                        <i class="bi bi-speedometer2 p-2 text-secondary" style="font-size: 20px;"></i>
+                        <span>Dashboard</span>
+    
+                    </a>
+                </li>
+                <li class="nav-title text-secondary fw-bolder fs-6  list-unstyled p-3" data-coreui-i18n="theme">THEME </li>
+                <li class="nav-item list-unstyled">
+                    <a class="nav-link text-light list-unstyled" href="">
+                        <i class="bi bi-droplet p-2 text-secondary" style="font-size: 20px;"></i>
+                        <span>Colors</span>
+    
+                    </a>
+                </li>
+                <li  class="nav-item list-unstyled">
+                    <a class="nav-link text-light list-unstyled" href="">
+                        <i class="bi bi-pencil p-2 text-secondary" style="font-size: 20px;"></i>
+                        <span>Typography</span>
+    
+                    </a>
+                </li>
+                <li class="nav-title text-secondary fw-bolder fs-6  p-3 list-unstyled" data-coreui-i18n="theme">COMPONENTS</li>
+    
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item mb-3 bg-dark">
+                      <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button text-light" style="background-color: #212631;" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne " aria-expanded="true" aria-controls="collapseOne">
+                            <i class="bi bi-puzzle p-2 text-secondary" style="font-size: 20px;"></i>
+                            base
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body text-light" style="background-color: #212631;">
+                            <li class="p-2"> Accordion</li>
+                            <li class="p-2">Breadcrumb</li>
+                            <li class="p-2">Cards</li>
+                            <li class="p-2">Carousel</li>
+                            <li class="p-2">Collapse</li>
+                            <li class="p-2">List Group</li>
+                            <li class="p-2">Navs & Tabs</li>
+                            <li class="p-2">Pagination</li>
+                            <li class="p-2">Placeholder</li>
+                            <li class="p-2">Popovers</li>
+                            <li class="p-2">Progress</li>
+                            <li class="p-2">Spinners</li>
+                            <li class="p-2">Tables</li>
+                            <li class="p-2">Tooltips</li>
+                        </div>
+                      </div>
+                    </div>
+    
+    
+                    <div class="accordion-item  mb-3 bg-dark text-light">
+                        <h2 class="accordion-header" id="headingtwo">
+                          <button class="accordion-button  text-light" style="background-color: #212631;" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetwo" aria-expanded="true" aria-controls="collapsetwo">
+                            <i class="bi bi-cursor p-2 text-secondary" style="font-size: 20px;"></i>
+                            buttons
+                          </button>
+                        </h2>
+                        <div id="collapsetwo" class="accordion-collapse collapse show" aria-labelledby="headingtwo" data-bs-parent="#accordionExample">
+                          <div class="accordion-body" style="background-color: #212631;">
+                              <li class="p-2">Buttons</li>
+                              <li class="p-2">Buttons group</li>
+                              <li class="p-2">Loading buttons</li>
+                              <li class="p-2">Dropdowns</li>
+                             
+                            
+                          </div>
+                        </div>
+                      </div>
+    
+                      <div class="accordion-item  mb-3 bg-dark text-light">
+                        <h2 class="accordion-header" id="headingthree">
+                          <button class="accordion-button  text-light" style="background-color: #212631;" type="button" data-bs-toggle="collapse" data-bs-target="#collapsethree" aria-expanded="true" aria-controls="collapsethree">
+                            <i class="bi bi-card-heading p-2 text-secondary" style="font-size: 20px;"></i>
+                            Forms
+                          </button>
+                        </h2>
+                        <div id="collapsethree" class="accordion-collapse collapse show" aria-labelledby="headingthree" data-bs-parent="#accordionExample">
+                          <div class="accordion-body" style="background-color: #212631;">
+                              <li class="p-2">Form control</li>
+                              <li class="p-2">Select</li>
+                              <li class="p-2">Multi Select</li>
+                              <li class="p-2">Checks & radio</li>
+                              <li class="p-2">Range</li>
+                              <li class="p-2">Input group</li>
+                              <li class="p-2">Floating labels</li>
+                          </div>
+                        </div>
+                      </div>
+    
+                      <div class="accordion-item  mb-3 bg-dark text-light">
+                        <h2 class="accordion-header" id="headingfore">
+                          <button class="accordion-button  text-light" style="background-color: #212631;" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefore" aria-expanded="true" aria-controls="collapsefore">
+                            <i class="bi bi-star p-2 text-secondary" style="font-size: 20px;"></i>
+                          Icons
+                          </button>
+                        </h2>
+                        <div id="collapsefore" class="accordion-collapse collapse show" aria-labelledby="headingfore" data-bs-parent="#accordionExample">
+                          <div class="accordion-body" style="background-color: #212631;">
+                            <li class="p-2">Coreul Icons</li>
+                            <li class="p-2">Coreul icons-brand</li>
+                            <li class="p-2">Coreul icons-flag</li>
+            
+                          </div>
+                        </div>
+                      </div>
+    
+                      <div class="accordion-item  mb-3 bg-dark text-light">
+                        <h2 class="accordion-header" id="headingfive">
+                          <button class="accordion-button  text-light" style="background-color: #212631;" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefive" aria-expanded="true" aria-controls="collapsefive">
+                            <i class="bi bi-bell p-2 text-secondary" style="font-size: 20px;"></i>
+                          notification
+                          </button>
+                        </h2>
+                        <div id="collapsefive" class="accordion-collapse collapse show" aria-labelledby="headingfive" data-bs-parent="#accordionExample">
+                          <div class="accordion-body" style="background-color: #212631;">
+                            <li class="p-2">Alerts</li>
+                            <li class="p-2">badge</li>
+                            <li class="p-2">Modals</li>
+                            <li class="p-2">Toasts</li>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+    
+    
+                <li class="nav-item list-unstyled">
+                    <a class="nav-link active text-light" href="">
+                        <i class="bi bi-calculator p-2 text-secondary" style="font-size: 20px;"></i>
+                        <span>widgets</span>
+                     
+                        <span class="badge bg-info text-uppercase ms-auto">new</span> 
+                    </a>
+    
+                </li>
+                <li class="nav-divider list-unstyled"></li>
+                <li class="nav-title text-secondary fs-6 fw-bolder list-unstyled p-3">PLUGINS</li>
+    
+                <li class="nav-item  text-light list-unstyled">
+                    <a class="nav-link  text-light" href="">
+                        <i class="bi bi-calendar2-week p-2 text-secondary" style="font-size: 20px;"></i>
+                        <span>calender</span>
+                       <span class="hh ps-5">
+                        <span class="badge bg-danger ms-auto">PRO</span>
+                    </span>
+    
+                    </a>
+                </li>
+    
+                <li class="nav-item  text-light list-unstyled">
+                    <a class="nav-link  text-light" href="">
+                        <i class="bi bi-pie-chart p-2 text-secondary" style="font-size: 20px;"></i>
+                        <span>Charts</span>
+    
+                    </a>
+                </li>
+                <li class="nav-item  text-light list-unstyled">
+                    <a class="nav-link  text-light" href="">    
+                        <i class="bi bi-table p-2 text-secondary" style="font-size: 20px;"></i>
+                        <span>Data tables</span>
+                        <span class="badge bg-danger ms-auto">PRO</span>
+    
+                    </a>
+                </li>
+                <li class="nav-item text-light list-unstyled">
+                    <a class="nav-link  text-light" href="">
+                        <i class="bi bi-map p-2 text-secondary" style="font-size: 20px;"></i>
+                        <span>Google maps</span>
+                        <span class="badge bg-danger ms-auto">PRO</span>
+    
+                    </a>
+                </li>
+                <li class="nav-title text-secondary fs-6 fw-bolder list-unstyled p-3">EXTRAS</li>
+    
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item  mb-3 bg-dark text-light">
+                      <h2 class="accordion-header" id="headingseven">
+                        <button class="accordion-button  text-light" style="background-color: #212631;" type="button" data-bs-toggle="collapse" data-bs-target="#collapseseven" aria-expanded="true" aria-controls="collapsefive">
+                            <i class="bi bi-bell p-2 text-secondary" style="font-size: 20px;"></i>
+                          pages
+                          </button>
+                      </h2>
+                      <div id="collapseseven" class="accordion-collapse collapse show" aria-labelledby="headingseven" data-bs-parent="#accordionExample">
+                        <div class="accordion-body" style="background-color: #212631;">
+                            <li class="p-2"><i class="bi bi-box-arrow-left"></i><span class="p-2">Login</span></li>
+                            <li class="p-2"><i class="bi bi-box-arrow-left"></i><span class="p-2">Register</span></li>
+                            <li class="p-2"><i class="bi bi-bug"></i><span class="p-2">Error 404</span></li>
+                            <li class="p-2"><i class="bi bi-bug"></i><span class="p-2">Error 500</span></li>
+                       
+                        </div>
+                      </div>
+                    </div>
+    
+    
+                    <div class="accordion-item  mb-3 bg-dark text-light">
+                        <h2 class="accordion-header" id="headingnine">
+                          <button class="accordion-button  text-light" style="background-color: #212631;" type="button" data-bs-toggle="collapse" data-bs-target="#collapsenine" aria-expanded="true" aria-controls="collapsenine">
+                            <i class="bi bi-stack p-2 text-secondary"style="font-size: 20px;"></i>
+                            APPS
+                            </button>
+                        </h2>
+                        <div id="collapsenine" class="accordion-collapse collapse show" aria-labelledby="headingnine" data-bs-parent="#accordionExample">
+                          <div class="accordion-body" style="background-color: #212631;">
+                              <li class="p-2"><i class="bi bi-box-arrow-left"></i><span class="p-2" >Login</span></li>
+                              <li class="p-2"><i class="bi bi-box-arrow-left"></i><span class="p-2">Register</span></li>
+                              <li class="p-2"><i class="bi bi-bug"></i><span class="p-2">Error 404</span></li>
+                              <li class="p-2"><i class="bi bi-bug"></i><span class="p-2">Error 500</span></li>
+                          </div>
+                        </div>
+                      </div>
+    
+               </div>
+    
+               <li class="nav-title pt-2 pb-2 fw-bolder ps-3">
+                
+                <span class="text-secondary">SYSTEM UTILIZATION</span>
+               </li>
+               <li class="nav-item px-3 pb-2 d-narrow-none">
+                <div class="text-uppercase fw-bold text-light">CPU usage</div>
+                <div class="progress progress-thin" style="height: 6px;">
+                        <div class="progress-bar bg-info" role="progressbar" style="width: 25%;  height: 6px;"></div>
+                </div>
+                <div class="small text-secondary fw-bold ">358 processes. 1/4cores</div>
+               </li>
+               <li class="nav-item px-3 pb-2 d-narrow-none">
+                <div class="text-uppercase fw-bold text-light">CPU usage</div>
+                <div class="progress progress-thin" style="height: 6px;">
+                        <div class="progress-bar bg-warning" role="progressbar" style="width: 25%;  height: 6px;"></div>
+                </div>
+                <div class="small text-secondary fw-bold ">358 processes. 1/4cores</div>
+               </li>
+               <li class="nav-item px-3 pb-2 d-narrow-none">
+                <div class="text-uppercase fw-bold text-light">CPU usage</div>
+                <div class="progress progress-thin" style="height: 6px;">
+                        <div class="progress-bar bg-danger" role="progressbar" style="width: 25%; height: 6px;"></div>
+                </div>
+                <div class="small text-secondary fw-bold ">358 processes. 1/4cores</div>
+               </li>
+               </div>
+
+            </div>
+
+
+
+
+        </div>
+
+
+         <div class="tab-content" id="tabcontent">
+            <div class="tab-pane fade show active" id="one">
+                <div class="container-fluid header">
+                    <div class="left">
+                     
+                         
+                 </div>
+                    <div class="right">
+                        
+                <div class="navigation d-flex justify-content-between  align-items-center" >
+                    <div class="user d-flex justify-content-between  align-items-center" style="width: 20%; ">
+
+                        <!-- <button class="navbar-toggler type-button  d-sm-block d-lg-none" data-bs-target="#off" data-bs-toggle="offcanvas">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>  -->
+                        <!-- <button class="navbar-toggler  d-sm-block d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                       -->
+                       <button class="btn btn-light d-sm-block d-lg-none"  type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas">
+                        <span class="navbar-toggler-icon fs-4"><i class="bi bi-list fs-3"></i></span>
+
+                       </button>
+
+                        <i class="bi bi-list d-sm-none d-lg-block jj" style="font-size: 30px;" id="kk"></i>
+                      
+                     <li class="list-unstyled ww text-dark">Dashboard</li>
+                     <li class="list-unstyled ww text-dark">User</li>
+                     <li class="list-unstyled ww text-dark">Settings</li>
+        
+                    </div>
+
+                    <div class="notify d-flex justify-content-between  align-items-center" style="width: 25%;">
+        
+                        <i class="bi bi-bell"  style="font-size:22px; position:relative; padding-left: 4px;"> <span class="badge bg-secondary bg-danger " style="position:absolute; top:-8px; left:8px; border-radius: 50%; font-size: 12px; ">1</span></i>
+                        <i class="bi bi-list-task"  style="font-size: 22px; position:relative; padding-left: 4px;"><span class="badge bg-secondary bg-warning  " style="position:absolute; top:-8px; left:8px; border-radius: 50%; font-size: 12px; ">1</span></i>
+                        <i class="bi bi-envelope-open"  style="font-size: 22px; position:relative; padding-left: 4px;"><span class="badge bg-secondary bg-info  " style="position:absolute; top:-8px; left:8px; border-radius: 50%; font-size: 12px; ">1</span></i> |
+                        <i class="bi bi-translate" style="font-size: 22px; padding-left: 4px;"></i>
+                        <i class="bi bi-brightness-high" style="font-size: 22px; "></i> |
+                        <i class="bi bi-person-circle" style="font-size: 22px;"></i>
+                        <i class="bi bi-building-gear" style="font-size: 22px;"></i>
+        
+                    </div>
+                   </div>
+                   <hr>
+
+                   <div class="container-fluid px-4  align-items-center justify-content-center mb-3" style="height: 40px;">
+                    <nav aria-label="Breadcrumb">
+                        <ol class="breadcrumb my-0">
+                            <li class="breadcrumb-item pt-2 pb-2">
+                                <a href="#">home</a>
+                            </li>
+                            <li class="breadcrumb-item active pb-2 pt-2">
+                                <span>dashboard</span>
+                            </li>
+
+                        </ol>
+
+                    </nav>
+
+                   </div>
+
+
+                   <div class="container">
+                    <div class="row me-2">
+                        <div class="col-3   mb-sm-2  col-md-6 col-sm-12  col-lg-3 col-xl-3">
+                            <div class="card text-light" style="height: 170px;  background-color: #6610f2;">
+                                <div class="card-body pb-0 d-flex justify-content-between align-items-center">
+                                <div class="fs-4 ps-3 pb-5 fw-bold     bot">
+                                    26K
+                                        <span class="fs-6 fw-normal">(-12.4%s
+                                            <i class="bi bi-arrow-down"></i>)
+                                    </span>
+                                  <div class="users fw-normal pb-5 fs-6">users</div>
+            
+                                    </div>
+                                    <div class="dropdown" style="padding-bottom: 110px; padding-left: 40px;">
+                                        <button class="btn btn-transparent text-white" type="button" data-bs-toggle="dropdown">
+                                           <span class="fs-5"> <i class="fa-solid fa-ellipsis-vertical"></i></span>
+                                           
+    
+    
+                                        </button>
+                                        <div class="dropdown-menu dropdown-menu-end" style="height: 105px; margin-bottom: 15px;">
+                                            <a  class="dropdown-item " href="">Action</a>
+                                            <a  class="dropdown-item " href="">Another section</a>
+                                            <a  class="dropdown-item" href="">Something else here</a>
+    
+    
+                                        </div>
+    
+                                    </div>
+
+
+
+                                </div>
+
+                            </div>
+                        </div>
+                        
+                        <div class="col-3  mb-sm-2 col-md-6 col-sm-12 col-lg-3 col-xl-3">
+                            <div class="card  text-light" style="height: 170px; background-color: rgb(12, 165, 226); ">
+                                <div class="card-body pb-0 d-flex justify-content-between align-items-center">
+                                <div class="fs-4 pb-5 ps-2 fw-bold     bot ">
+                                    $6.200
+                                        <span class="fs-6 fw-normal">(-40.9%
+                                            <i class="bi bi-arrow-down"></i>)
+                                        
+                                    </span>
+                                    <div class="users fw-normal pb-5 fs-6">Income</div>
+                                    
+                                    </div>
+                                    <div class="dropdown" style="padding-bottom: 110px; padding-left: 40px;">
+                                        <button class="btn btn-transparent text-white" type="button" data-bs-toggle="dropdown">
+                                           <span class="fs-5"> <i class="fa-solid fa-ellipsis-vertical"></i></span>
+                                           
+    
+    
+                                        </button>
+                                        <div class="dropdown-menu dropdown-menu-end" style="height: 105px; margin-bottom: 15px;">
+                                            <a  class="dropdown-item " href="">Action</a>
+                                            <a  class="dropdown-item " href="">Another section</a>
+                                            <a  class="dropdown-item" href="">Something else here</a>
+    
+    
+                                        </div>
+    
+                                    </div>
+                                </div>
+        
+                            </div>
+                        </div>
+                        <div class="col-3  mb-sm-2 col-md-6 col-sm-12 col-lg-3 col-xl-3">
+                            <div class="card bg-warning text-light" style="height: 170px; ">
+                                <div class="card-body pb-0 d-flex justify-content-between align-items-center">
+                                <div class="fs-4 pb-5  ps-2 fw-bold     bot">
+                                    2.49%
+                                        <span class="fs-6 fw-normal">(-84.7%
+                                            <i class="bi bi-arrow-down"></i>)
+                                        
+                                    </span>
+                                    <div class="users fw-normal pb-5 fs-6">Conversion Rate</div>
+                                    
+                                    </div>
+                                    <div class="dropdown" style="padding-bottom: 110px; padding-left: 40px;">
+                                        <button class="btn btn-transparent text-white" type="button" data-bs-toggle="dropdown">
+                                           <span class="fs-5"> <i class="fa-solid fa-ellipsis-vertical"></i></span>
+                                           
+    
+    
+                                        </button>
+                                        <div class="dropdown-menu dropdown-menu-end" style="height: 105px; margin-bottom: 15px;">
+                                            <a  class="dropdown-item " href="">Action</a>
+                                            <a  class="dropdown-item " href="">Another section</a>
+                                            <a  class="dropdown-item" href="">Something else here</a>
+    
+    
+                                        </div>
+    
+                                    </div>
+                                </div>
+        
+                            </div>
+                        </div>
+                        <div class="col-3  mb-sm-2 col-md-6 col-sm-12 col-lg-3">
+                            <div class="card  text-light" style="height: 170px; background-color:#e94343; ">
+                                <div class="card-body pb-0 d-flex justify-content-between align-items-center">
+                                <div class="fs-4 pb-5 ps-2 fw-bold     bot ">
+                                   44k
+                                        <span class="fs-6 fw-normal">(-23.6%
+                                            <i class="bi bi-arrow-down"></i>)
+                                        
+                                    </span>
+                                    <div class="users fw-normal pb-5 fs-6">Session</div>
+                                    
+                                    </div>
+                                    <div class="dropdown" style="padding-bottom: 110px; padding-left: 40px;">
+                                        <button class="btn btn-transparent text-white" type="button" data-bs-toggle="dropdown">
+                                           <span class="fs-5"> <i class="fa-solid fa-ellipsis-vertical"></i></span>
+                                           
+    
+    
+                                        </button>
+                                        <div class="dropdown-menu dropdown-menu-end" style="height: 105px; margin-bottom: 15px;">
+                                            <a  class="dropdown-item " href="">Action</a>
+                                            <a  class="dropdown-item " href="">Another section</a>
+                                            <a  class="dropdown-item" href="">Something else here</a>
+                                        </div>
+    
+                                    </div>
+                                </div>
+        
+                            </div>
+                        </div>
+                </div>
+                   </div>
+
+                   <div class="card mt-3">
+                  <div class="container">
+                    <div class="row">
+                        <div class="card-body">
+                            <div class="card-footer" style="background-color: white; border:none;">
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <h4 class="card-title mb-0">Traffic</h4>
+                                <div class="small text-body-secondary">
+                                    <span>january</span>
+                                  -
+
+                                    <span>june</span>
+                                     2023 
+                                </div>
+
+                            </div>
+                            <div class="btn-toolbar d-none d-md-block" role="toolbar" aria-label="toolbar with buttons">
+                                <div class="btn-group btn-group-toggle mx-3" data-coreui-toggle="buttons">
+                                    <input class="btn-check" id="option1" type="radio" name="options" autocomplete="off">
+                                    <label class="btn btn-outline-secondary">day</label>
+
+                                    <input class="btn-check" id="option2" type="radio" name="options" autocomplete="off" checked>
+                                    <label class="btn btn-outline-secondary active">mont</label>
+
+                                    <input class="btn-check" id="option3" type="radio" name="options" autocomplete="off">
+                                    <label class="btn btn-outline-secondary">year</label>
+
+
+
+                                </div>
+                                <button class="btn btn-primary" type="button">
+                                  
+                                    <i class="bi bi-cloud-download"></i>
+                                
+                                </button>
+
+                            </div>
+
+                        </div> 
+                    </div>
+
+                    </div>
+                    <div class="c-chart-wrapper ms-2" style="height: 300px; margin-bottom: 50px;">
+   
+                        <div class="col-12">
+                            <div>
+                                <canvas id="myChart" aria-label="chart" role="img" width="700" height="200"></canvas>
+                            </div>
+                        </div>
+                    
+                  </div> 
+                
+                  
+                   <script>
+                    const ctx = document.getElementById('myChart');
+                  
+                    new Chart(ctx, {
+                      type: 'line',
+                      data: {
+                        labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+                        datasets: [{
+                          label: '# of Votes',
+                          data: [12, 19, 3, 5, 2, 3],
+                          borderWidth: 1
+                        }]
+                      },
+                      options: {
+                        scales: {
+                          y: {
+                            beginAtZero: true
+                          }
+                        }
+                      }
+                    });
+                  </script>
+               
+                  </div>
+
+                  </div>
+             <div class="card-footer" style="width: 100%; margin: auto;">
+                  <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4  row-cols-xl-5 g-4 mb-2 text-center ">
+                    <div class="col">
+                        <div class="text-body-secondary" data-coreui-i18n="visits">visits</div>
+                        <div class="text-truncate" style="font-weight: 600">
+                            <span data-coreui-i18n="usercounter,{'counter':'29.703'}">29.703 Users</span>
+                            (40%)
+                        </div>
+                        <div class="progress progress-thin mt-2">
+                            <div class="progress-bar bg-success" role="progress-bar" style="width: 40%;">
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="text-body-secondary" data-coreui-i18n="visits">Unique</div>
+                        <div class="text-truncate" style="font-weight: 600">
+                            <span data-coreui-i18n="usercounter,{'counter':'29.703'}">24.093 Users</span>
+                            (20%)
+                        </div>
+                        <div class="progress progress-thin mt-2">
+                            <div class="progress-bar bg-info" role="progress-bar" style="width: 20%;">
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="text-body-secondary" data-coreui-i18n="visits">Pageviews</div>
+                        <div class="text-truncate" style="font-weight: 600">
+                            <span data-coreui-i18n="usercounter,{'counter':'29.703'}">78.706 Views</span>
+                            (60%)
+                        </div>
+                        <div class="progress progress-thin mt-2">
+                            <div class="progress-bar bg-warning" role="progress-bar" style="width: 60%;">
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="text-body-secondary" data-coreui-i18n="visits">New Users</div>
+                        <div class="text-truncate" style="font-weight: 600">
+                            <span data-coreui-i18n="usercounter,{'counter':'29.703'}">22.123 Users</span>
+                            (80%)
+                        </div>
+                        <div class="progress progress-thin mt-2">
+                            <div class="progress-bar bg-danger" role="progress-bar" style="width: 80%;">
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                  </div> 
+                </div>
+            </div>
+            <div class="container mt-5">
+                <div class="row">
+                  <div class="col-4 col-sm-12 col-lg-4 col-md-6  mb-md-2 mb-sm-2">
+                      <div class="card">
+                          <div class="card-header position-relative d-flex justify-content-center align-items-center" style="height: 120px; background-color: #3b5998;">
+                              <i class="bi bi-facebook fs-1 text-light"></i>
+                              <div class="chart-wrapper position-absolute top-0 start-0 w-100">
+                              <canvas id="social-box-chart-2"height="90"></canvas>
+                          </div>
+      
+                        
+                      </div>
+                          <div class="card-body row text-center">
+                              <div class="col">
+                                  <div class="" style="font-weight: 600; font-size: 1.25rem;">89k</div>
+                                  <div class="text-uppercase  text-body-secondary small" style="font-size: .875em; color:grey;">FRIENDS</div>
+                              </div>
+                              <div class="vr"></div>
+                              <div class="col">
+                                  <div class="fs-5 fw-semibold" style="font-weight: 600; font-size: 1.25rem;">459</div>
+                                  <div class="text-uppercase  text-body-secondary small" style="font-size: .875em; color:grey">FEEDS</div>
+                              </div>
+      
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-4 col-sm-12 col-lg-4 col-md-6 mb-md-2 mb-sm-2">
+                      <div class="card">
+                          <div class="card-header position-relative d-flex justify-content-center align-items-center" style="height: 120px; background-color: #00aced">
+                              <i class="bi bi-twitter fs-1 text-light"></i>
+                              <div class="chart-wrapper position-absolute top-0 start-0 w-100 h-100">
+                              <canvas id="social-box-chart-2" height="90"></canvas>
+                          </div>
+      
+                        
+                      </div>
+                          <div class="card-body row text-center">
+                              <div class="col">
+                                  <div class="fs-5 fw-semibold" style="font-weight: 600; font-size: 1.25rem;">973k</div>
+                                  <div class="text-uppercase  text-body-secondary small" style="font-size: .875em; color:grey">FOLLOWERS</div>
+                              </div>
+                              <div class="vr"></div>    
+                              <div class="col">
+                                  <div class="fs-5 fw-semibold" style="font-weight: 600; font-size: 1.25rem;">1.792</div>
+                                  <div class="text-uppercase  text-body-secondary small" style="font-size: .875em; color:grey">TWEETS</div>
+                              </div>
+                          </div>
+                        
+                      </div>  
+                      
+                  </div>
+                  <div class="col-4 col-sm-12 col-lg-4 col-md-6  mb-md-2 mb-sm-2">
+                      <div class="card">
+                          <div class="card-header position-relative d-flex justify-content-center align-items-center" style="height: 120px; background-color: #4875b4;">
+                              <i class="bi bi-linkedin fs-1 text-light"></i>
+                              <div class="chart-wrapper position-absolute top-0 start-0 w-100 h-100">
+                              <canvas id="social-box-chart-2" height="90"></canvas>
+                          </div>
+      
+                        
+                      </div>
+                          <div class="card-body row text-center">
+                              <div class="col">
+                                  <div class="fs-5 fw-semibold" style="font-weight: 600; font-size: 1.25rem;">500+</div>
+                                  <div class="text-uppercase  text-body-secondary small" style="font-size: .875em; color:grey">CONTACTS</div>
+                              </div>
+                              <div class="vr"></div>
+                              <div class="col">
+                                  <div class="fs-5 fw-semibold" style="font-weight: 600; font-size: 1.25rem;">292</div>
+                                  <div class="text-uppercase  text-body-secondary small" style="font-size: .875em; color:grey">FEEDS</div>
+                              </div>
+      
+                          </div>
+                          
+                      </div>
+                  </div>
+                </div>
+            
+              </div>
+           <div class="card mt-4">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card-mb-4">
+                            <div class="card-header">Traffic and Sales</div>
+                            <div class="card-body ms-3 mt-2">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <div class="border-start border-start-4 border-start-info px-3 mb-3">
+                                                    <div class="small text-body-secondary  text-truncate">New Clients</div>
+                                                    <div class="fs-4 fw-bold">9.123</div>
+                                                </div>
+                                            </div>
+            
+                                            <div class="col-6">
+                                                <div class="border-start border-start-4 border-start-danger px-3 mb-3">
+                                                    <div class="small text-body-secondary  text-truncate">Recurring Clients</div>
+                                                    <div class="fs-4 fw-bold">22.643</div>
+                                                </div>
+                                            </div>
+            
+
+                                        </div>
+            
+                                        <hr class="mt-0">
+            
+                                        <div class="progress-group mb-4">
+                                            <div class="progress-group-prepend">
+                                                <span class="small">Monday</span>
+                                            </div>
+                                            <div class="progress-group-bars">
+                                               <div class="progress progress-thin mb-1">
+                                                <div class="progress-bar" role="progress-bar" style="width: 34%;">
+                                
+                                                </div>
+                                
+                                               </div>
+                                               <div class="progress progress-thin">
+                                                <div class="progress-bar bg-danger" role="progress-bar" style="width: 78%;">
+                                
+                                                </div>
+                                
+                                               </div>
+                                
+                                
+                                            </div>
+                                
+                                        </div>
+                                        <div class="progress-group mb-4">
+                                            <div class="progress-group-prepend">
+                                                <span class="small" data-coreui-i18n="">Tuesday</span>
+                                            </div>
+                                            <div class="progress-group-bars">
+                                               <div class="progress progress-thin mb-1">
+                                                <div class="progress-bar" role="progress-bar" style="width: 56%;">
+                                
+                                                </div>
+                                
+                                               </div>
+                                               <div class="progress progress-thin">
+                                                <div class="progress-bar bg-danger" role="progress-bar" style="width: 94%;">
+                                
+                                                </div>
+                                
+                                               </div>
+                                
+                                
+                                            </div>
+                                
+                                        </div>
+                                        <div class="progress-group mb-4">
+                                            <div class="progress-group-prepend">
+                                                <span class="small" data-coreui-i18n="">Wednesday</span>
+                                            </div>
+                                            <div class="progress-group-bars">
+                                               <div class="progress progress-thin mb-1">
+                                                <div class="progress-bar" role="progress-bar" style="width: 12%;">
+                                
+                                                </div>
+                                
+                                               </div>
+                                               <div class="progress progress-thin">
+                                                <div class="progress-bar bg-danger" role="progress-bar" style="width: 67%;">
+                                
+                                                </div>
+                                
+                                               </div>
+                                
+                                
+                                            </div>
+                                
+                                        </div>
+                                        <div class="progress-group mb-4">
+                                            <div class="progress-group-prepend">
+                                                <span class="small" data-coreui-i18n="">Thursday</span>
+                                            </div>
+                                            <div class="progress-group-bars">
+                                               <div class="progress progress-thin mb-1">
+                                                <div class="progress-bar" role="progress-bar" style="width: 43%;">
+                                
+                                                </div>
+                                
+                                               </div>
+                                               <div class="progress progress-thin">
+                                                <div class="progress-bar bg-danger" role="progress-bar" style="width: 91%;">
+                                
+                                                </div>
+                                
+                                               </div>
+                                
+                                
+                                            </div>
+                                
+                                        </div>
+                                        <div class="progress-group mb-4">
+                                            <div class="progress-group-prepend">
+                                                <span class="small" data-coreui-i18n="">Friday</span>
+                                            </div>
+                                            <div class="progress-group-bars">
+                                               <div class="progress progress-thin mb-1">
+                                                <div class="progress-bar" role="progress-bar" style="width: 22%;">
+                                
+                                                </div>
+                                
+                                               </div>
+                                               <div class="progress progress-thin">
+                                                <div class="progress-bar bg-danger" role="progress-bar" style="width: 73%;">
+                                
+                                                </div>
+                                
+                                               </div>
+                                
+                                
+                                            </div>
+                                
+                                        </div>
+                                        <div class="progress-group mb-4">
+                                            <div class="progress-group-prepend">
+                                                <span class="small" data-coreui-i18n="">Saturday</span>
+                                            </div>
+                                            <div class="progress-group-bars">
+                                               <div class="progress progress-thin mb-1">
+                                                <div class="progress-bar" role="progress-bar" style="width: 53%;">
+                                
+                                                </div>
+                                
+                                               </div>
+                                               <div class="progress progress-thin">
+                                                <div class="progress-bar bg-danger" role="progress-bar" style="width: 82%;">
+                                
+                                                </div>
+                                
+                                               </div>
+                                
+                                
+                                            </div>
+                                
+                                        </div>
+                                        <div class="progress-group mb-4">
+                                            <div class="progress-group-prepend">
+                                                <span class="small" data-coreui-i18n="">Sunday</span>
+                                            </div>
+                                            <div class="progress-group-bars">
+                                               <div class="progress progress-thin mb-1">
+                                                <div class="progress-bar" role="progress-bar" style="width: 9%;">
+                                
+                                                </div>
+                                
+                                               </div>
+                                               <div class="progress progress-thin">
+                                                <div class="progress-bar bg-danger" role="progress-bar" style="width: 69%;">
+                                
+                                                </div>
+                                
+                                               </div>
+                                
+                                
+                                            </div>
+                                
+                                        </div>
+            
+            
+                                    </div>
+            
+            
+            
+            
+                                    <div class="col-sm-6">
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <div class="border-start border-start-4 border-start-warning px-3 mb-3">
+                                                    <div class="small text-body-secondary text-truncate" data-coreui-i18n="nexw clienyts">Pageviews</div>
+                                                    <div class="fs-4 fw-bold">9.123</div>
+                                                </div>
+            
+                                            </div>
+            
+                                            <div class="col-6">
+                                                <div class="border-start border-start-4 border-start-success px-3 mb-3">
+                                                    <div class="small text-body-secondary text-truncate" data-coreui-i18n="nexw clienyts">Organic</div>
+                                                    <div class="fs-4 fw-bold">9.123</div>
+                                                </div>
+            
+                                            </div>
+                                        </div>
+                                        <hr class="mt-0 me-2">
+            
+            
+            
+                                        <div class="progress-group2  mb-3 me-2">
+                                            <div class="progress-group-header">
+                                               
+                                                <i class="bi bi-person"></i>
+                                       
+                                                <div data-coreui-i18n="male">male</div>
+                                                <div class="ms-auto fw-bold">43%</div>
+                    
+                                            </div>
+                                            <div class="progress-group-bars-nav" style="height: 5px;">
+                                                
+                                                    <div class="progress progress-thin-nav" style="height: 5px;">
+                                                        <div class="progress-bar bg-warning-gradient" role="progress-bar" style="width: 43%; height: 5px; background-color: #f9b115"></div>
+                                        
+                                                       </div>
+                    
+                                            
+                                            </div>
+                    
+                    
+                                        </div>
+                                        <div class="progress-group2 mb-5  me-2">
+                                            <div class="progress-group-header">
+                                                <i class="bi bi-person-fill"></i>
+                                                <div data-coreui-i18n="Female">Female</div>
+                                                <div class="ms-auto fw-bold">37%</div>
+                    
+                                            </div>
+                                            <div class="progress-group-bars-nav" style="height: 5px;">
+                                                
+                                                    <div class="progress progress-thin-nav" style="height: 5px;">
+                                                        <div class="progress-bar bg-warning-gradient" role="progress-bar" style="width: 37%; height: 5px; background-color: #f9b115"></div>
+                                        
+                                                       </div>
+                    
+                                            
+                                            </div>
+                    
+                    
+                                        </div>
+                                        <div class="progress-group2 mb-2  me-2">
+                                            <div class="progress-group-header">
+                                               <i class="bi bi-google"></i>
+                                                <div data-coreui-i18n="Organic Search">Organic Search</div>
+                                                <div class="ms-auto  fw-bold">191.235
+                                                    (56%)</div>
+                    
+                                            </div>
+                                            <div class="progress-group-bars-nav" style="height: 5px;">
+                                                
+                                                    <div class="progress progress-thin-nav" style="height: 5px;">
+                                                        <div class="progress-bars" role="progress-bar" style="width: 56%; height: 5px;"></div>
+                                        
+                                                       </div>
+                    
+                                            
+                                            </div>
+                    
+                    
+                                        </div>
+                                        <div class="progress-group2  mb-3  me-2">
+                                            <div class="progress-group-header">
+                                                <i class="bi bi-facebook"></i>
+                                                <div data-coreui-i18n="male">Facebook</div>
+                                                <div class="ms-auto fw-bold">51.223
+                                                    (15%)</div>
+                    
+                                            </div>
+                                            <div class="progress-group-bars-nav" style="height: 5px;">
+                                                
+                                                    <div class="progress progress-thin-nav" style="height: 5px;">
+                                                        <div class="progress-bars" role="progress-bar" style="width: 15%; height: 5px;"></div>
+                                        
+                                                       </div>
+                    
+                                            
+                                            </div>
+                    
+                    
+                                        </div>
+                                        <div class="progress-group2  mb-3  me-2">
+                                            <div class="progress-group-header">
+                                                <i class="bi bi-twitter"></i>
+                                                <div data-coreui-i18n="male">Twitter</div>
+                                                <div class="ms-auto fw-bold">37.564
+                                                    (11%)</div>
+                    
+                                            </div>
+                                            <div class="progress-group-bars-nav" style="height: 5px;">
+                                                
+                                                    <div class="progress progress-thin-nav" style="height: 5px;">
+                                                        <div class="progress-bars" role="progress-bar" style="width: 11%; height: 5px;"></div>
+                                        
+                                                       </div>
+                    
+                                            
+                                            </div>
+                    
+                    
+                                        </div>
+                                        <div class="progress-group2  mb-3  me-2">
+                                            <div class="progress-group-header">
+                                                <i class="bi bi-linkedin"></i>
+                                                <div data-coreui-i18n="">Linkedin</div>
+                                                <div class="ms-auto fw-bold">27.319
+                                                    (8%)</div>
+                    
+                                            </div>
+                                            <div class="progress-group-bars-nav" style="height: 5px;">
+                                                
+                                                    <div class="progress progress-thin-nav" style="height: 5px;">
+                                                        <div class="progress-bars
+                                                        " role="progress-bar" style="width: 8%; height: 5px;"></div>
+                                        
+                                                       </div>
+                    
+                                            
+                                            </div>
+                    
+                    
+                                        </div>
+            
+            
+            
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+          
+                <div class="table-responsive">
+                    <table class="table border  table-light  table-hover  borderless-remover  mb-3">
+                        <thead class="text-nowrap">
+                            <tr class="align-middle">
+                                <th class="text-center">
+                                    <i class="bi bi-people pe-5 ps-4 fw-bolder fs-4"></i>
+                                </th>
+                                <th class="bg-body-secondary">user</th>
+                                <th class="bg-body-secondary">country</th>
+                                <th class="bg-body-secondary">usage</th>
+                                <th class="bg-body-secondary text-center">payment mathod</th>
+                                <th class="bg-body-secondary">activity</th>
+                                <th></th>
+            
+                            </tr>
+            
+                        </thead>
+                        <tbody>
+                            <tr class="align-middle">
+                                <td class="text-center">
+                                    <div class="avatar avatar-md">
+                                       <img  class="avatar-img rounded-circle w-30" height="39px"  src="img/11.jpg" alt="" style="border-radius:70%;">
+                               
+                                      
+                                    </div>
+            
+                                </td>
+                                <td>
+                                    <div class="text-nowrap" style="font-weight: 400;">Yiorgos Avraamu</div>
+                                    <div class="text-nowrap" style="font-size: .875em;">
+                                        <span>new</span>
+                                        <span> Registered:</span>
+                                        <span>Jan 10, 2023</span>
+                                    </div>
+                                </td>
+                                <td class="text-center">
+                                    <img src="img/usa.png" alt="">
+                                </td>
+                                <td>
+                                    <div class="d-flex justify-content-between align-items-md-baseline ">
+                                        <div class="fw-bolder">50%</div>
+                                        <div class="text-nowrap ms-3">
+                                            <span data-coreui-i18n-date="dateshortmonthname,{'date':' 2023 - Jul 10, 2023'}">Jun 11, 2023</span>
+                                            -
+                                            <span data-coreui-i18n-date="dateshortmonthname,{'date':' 2023 - Jul 10, 2023'}">Jul 10, 2023</span>
+                                        </div>
+                                    </div>
+            
+                                   
+                                        <div class="progress progress-thin" style="height: 4px;">
+                                            <div class="progress-bar bg-success" role="progressbar" style="width: 50%; height: 4px;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                   
+                                </td>
+            
+                                <td class="text-center">
+                                    <img src="img/1.png" alt="">
+            
+                                </td>
+                                <td>
+                                    <div class="fw-bolder text-nowrap" data-coreui-i18n="lastlogin">Last Login</div>
+                                    <div class="text-nowrap" data-coreui-i18n="relativetime,{'val:-10,'range:''seconds'}">10 seconds ago</div>
+            
+                                </td>
+                                <td>
+                                    <div class="dropdown">
+                                        <span class="pe-3 fs-5"> <i class="fa-solid fa-ellipsis-vertical"></i></span>
+
+                                    </div>
+                                  </td>
+                             
+            
+            
+            
+                            </tr>
+                            <tr class="align-middle">
+                                <td class="text-center">
+                                    <div class="avatar avatar-md">
+                                       <img  class="avatar-img rounded-circle w-30" height="39px"    src="img/11.jpg" alt="">
+                                       <span class="avatar-status bg-success"></span>
+                                    </div>
+            
+                                </td>
+                                <td>
+                                    <div class="text-nowrap" style="font-weight: 400;">Avram Tarasios</div>
+                                    <div class="text-nowrap" style="font-size: .875em;">
+                                        <span>Reccuring</span>
+                                        <span> Registered:</span>
+                                        <span>Jan 10, 2023</span>
+                                    </div>
+                                </td>
+                                <td class="text-center">
+                                    <img src="img/brazil.png" alt="">
+                                </td>
+                                <td>
+                                    <div class="d-flex justify-content-between align-items-md-baseline ">
+                                        <div class="fw-bolder">10%</div>
+                                        <div class="text-nowrap ms-3">
+                                            <span data-coreui-i18n-date="dateshortmonthname,{'date':' 2023 - Jul 10, 2023'}">Jun 11, 2023</span>
+                                            -
+                                            <span data-coreui-i18n-date="dateshortmonthname,{'date':' 2023 - Jul 10, 2023'}">Jul 10, 2023</span>
+                                        </div>
+                                    </div>
+            
+                                   
+                                        <div class="progress progress-thin" style="height: 4px;">
+                                            <div class="progress-bar bg-info" role="progressbar" style="width: 10%; height: 4px;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                   
+                                </td>
+            
+                                <td class="text-center">
+                                    <img src="img/2.png" alt="">
+            
+                                </td>
+                                <td>
+                                    <div class="fw-bolder text-nowrap" data-coreui-i18n="lastlogin">Last Login</div>
+                                    <div class="text-nowrap" data-coreui-i18n="relativetime,{'val:-10,'range:''seconds'}">10 seconds ago</div>
+            
+                                </td>
+                                <td>
+                                    <div class="dropdown">
+                                        <span class="pe-3 fs-5"> <i class="fa-solid fa-ellipsis-vertical"></i></span>
+
+                                    </div>
+                                  </td>
+                          
+            
+            
+            
+                            </tr>
+                            <tr class="align-middle">
+                                <td class="text-center">
+                                    <div class="avatar avatar-md">
+                                       <img  class="avatar-img rounded-circle w-30" height="39px"    src="img/12.jpg" alt="">
+                                       <span class="avatar-status bg-success"></span>
+                                    </div>
+            
+                                </td>
+                                <td>
+                                    <div class="text-nowrap" style="font-weight: 400;">Quintin Ed</div>
+                                    <div class="text-nowrap" style="font-size: .875em;">
+                                        <span>New</span>
+                                        <span>Registered:</span>
+                                        <span>Jan 10, 2023</span>
+                                    </div>
+                                </td>
+                                <td class="text-center">
+                                    <img src="img/india.png" alt="">
+                                </td>
+                                <td>
+                                    <div class="d-flex justify-content-between align-items-md-baseline">
+                                        <div class="fw-bolder">74%</div>
+                                        <div class="text-nowrap ms-3">
+                                            <span data-coreui-i18n-date="dateshortmonthname,{'date':' 2023 - Jul 10, 2023'}">Jun 11, 2023</span>
+                                            -
+                                            <span data-coreui-i18n-date="dateshortmonthname,{'date':' 2023 - Jul 10, 2023'}">Jul 10, 2023</span>
+                                        </div>
+                                    </div>
+            
+                                   
+                                        <div class="progress progress-thin" style="height: 4px;">
+                                            <div class="progress-bar bg-warning" role="progressbar" style="width: 74%; height: 4px;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                   
+                                </td>
+            
+                                <td class="text-center">
+                                    <img src="img/3.png" alt="">
+            
+                                </td>
+                                <td>
+                                    <div class="fw-bolder text-nowrap" data-coreui-i18n="lastlogin">Last Login</div>
+                                    <div class="text-nowrap" data-coreui-i18n="relativetime,{'val:-10,'range:''seconds'}">10 seconds ago</div>
+            
+                                </td>
+                                <td>
+                                    <div class="dropdown">
+                                        <span class="pe-3 fs-5"> <i class="fa-solid fa-ellipsis-vertical"></i></span>
+
+                                    </div>
+                                  </td>
+                          
+            
+            
+            
+                            </tr>
+            
+                            <tr class="align-middle">
+                                <td class="text-center">
+                                    <div class="avatar avatar-md">
+                                       <img  class="avatar-img rounded-circle w-30" height="39px"  src="img/13.jpg" alt="">
+                                       <span class="avatar-status bg-success"></span>
+                                    </div>
+            
+                                </td>
+                                <td>
+                                    <div class="text-nowrap" style="font-weight: 400;">Enéas Kwadwo</div>
+                                    <div class="text-nowrap" style="font-size: .875em;">
+                                        <span>New</span>
+                                        <span>Registered:</span>
+                                        <span>Jan 10, 2023</span>
+                                    </div>
+                                </td>
+                                <td class="text-center">
+                                    <img src="img/frans.png" alt="">
+                                </td>
+                                <td>
+                                    <div class="d-flex justify-content-between align-items-md-baseline ">
+                                        <div class="fw-bolder">98%</div>
+                                        <div class="text-nowrap ms-3">
+                                            <span data-coreui-i18n-date="dateshortmonthname,{'date':' 2023 - Jul 10, 2023'}">Jun 11, 2023</span>
+                                            -
+                                            <span data-coreui-i18n-date="dateshortmonthname,{'date':' 2023 - Jul 10, 2023'}">Jul 10, 2023</span>
+                                        </div>
+                                    </div>
+            
+                                   
+                                        <div class="progress progress-thin" style="height: 4px;">
+                                            <div class="progress-bar bg-danger" role="progressbar" style="width: 98%; height: 4px;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                   
+                                </td>
+            
+                                <td class="text-center">
+                                    <img src="img/4.png" alt="">
+            
+                                </td>
+                                <td>
+                                    <div class="fw-bolder text-nowrap" data-coreui-i18n="lastlogin">Last Login</div>
+                                    <div class="text-nowrap" data-coreui-i18n="relativetime,{'val:-10,'range:''seconds'}">10 seconds ago</div>
+            
+                                </td>
+                                <td>
+                                    <div class="dropdown">
+                                        <span class="pe-3 fs-5"> <i class="fa-solid fa-ellipsis-vertical"></i></span>
+
+                                    </div>
+                                  </td>
+                             
+                            </tr>
+            
+                            <tr class="align-middle">
+                                <td class="text-center">
+                                    <div class="avatar avatar-md">
+                                       <img  class="avatar-img rounded-circle w-30" height="39px"    src="img/14.jpg" alt="">
+                                       <span class="avatar-status bg-success"></span>
+                                    </div>
+            
+                                </td>
+                                <td>
+                                    <div class="text-nowrap" style="font-weight: 400;">Agapetus Tadeáš</div>
+                                    <div class="text-nowrap" style="font-size: .875em;">
+                                        <span>New</span>
+                                        <span>Registered:</span>
+                                        <span>Jan 10, 2023</span>
+                                    </div>
+                                </td>
+                                <td class="text-center">
+                                    <img src="img/spain.png" alt="">
+                                </td>
+                                <td>
+                                    <div class="d-flex justify-content-between align-items-md-baseline">
+                                        <div class="fw-bolder">22%</div>
+                                        <div class="text-nowrap ms-3">
+                                            <span data-coreui-i18n-date="dateshortmonthname,{'date':' 2023 - Jul 10, 2023'}">Jun 11, 2023</span>
+                                            -
+                                            <span data-coreui-i18n-date="dateshortmonthname,{'date':' 2023 - Jul 10, 2023'}">Jul 10, 2023</span>
+                                        </div>
+                                    </div>
+            
+                                   
+                                        <div class="progress progress-thin" style="height: 4px;">
+                                            <div class="progress-bar bg-info" role="progressbar" style="width: 22%; height: 4px;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                   
+                                </td>
+            
+                                <td class="text-center">
+                                    <img src="img/5.png" alt="">
+                                </td>
+                                <td>
+                                    <div class="fw-bolder text-nowrap" data-coreui-i18n="lastlogin">Last Login</div>
+                                    <div class="text-nowrap" data-coreui-i18n="relativetime,{'val:-10,'range:''seconds'}">10 seconds ago</div>
+            
+                                </td>
+                                <td>
+                                    <div class="dropdown">
+                                        <span class="pe-3 fs-5"> <i class="fa-solid fa-ellipsis-vertical"></i></span>
+
+                                    </div>
+                                  </td>
+                            </tr>
+            
+                            <tr class="align-middle">
+                                <td class="text-center">
+                                    <div class="avatar avatar-md">
+                                       <img  class="avatar-img rounded-circle w-30" height="39px"    src="img/15.jpg" alt="">
+                                       <span class="avatar-status bg-success"></span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="text-nowrap" style="font-weight: 400;">Friderik Dávid</div>
+                                    <div class="text-nowrap" style="font-size: .875em;">
+                                        <span>New</span>
+                                        <span> Registered:</span>
+                                        <span>Jan 10, 2023</span>
+                                    </div>
+                                </td>
+                                <td class="text-center">
+                                    <img src="img/user.png" alt="">
+                                </td>
+                                <td>
+                                    <div class="d-flex justify-content-between align-items-md-baseline ">
+                                        <div class="fw-bolder">43%</div>
+                                        <div class="text-nowrap ms-3">
+                                            <span data-coreui-i18n-date="dateshortmonthname,{'date':' 2023 - Jul 10, 2023'}">Jun 11, 2023</span>
+                                            -
+                                            <span data-coreui-i18n-date="dateshortmonthname,{'date':' 2023 - Jul 10, 2023'}">Jul 10, 2023</span>
+                                        </div>
+                                    </div>
+            
+                                   
+                                        <div class="progress progress-thin" style="height: 4px;">
+                                            <div class="progress-bar bg-success" role="progressbar" style="width: 43%; height: 4px;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                   
+                                </td>
+            
+                                <td class="text-center">
+                                    <img src="img/6.png" alt="">
+            
+                                </td>
+                                <td>
+                                    <div class="fw-bolder text-nowrap" data-coreui-i18n="lastlogin">Last Login</div>
+                                    <div class="text-nowrap" data-coreui-i18n="relativetime,{'val:-10,'range:''seconds'}">10 seconds ago</div>           
+                                </td>
+                                <td>
+                                    <div class="dropdown">
+                                        <span class="pe-3 fs-5"> <i class="fa-solid fa-ellipsis-vertical"></i></span>
+
+                                    </div>
+                                  </td>
+                            
+            
+            
+            
+                            </tr>
+            
+            
+            
+            
+            
+                        </tbody>
+            
+                    </table>
+            
+            
+                 </div>
+        </div>
+<hr>
+
+
+        <footer class="footer px-4">
+            <div>
+                <a href="">CoreUI</a>
+                <a href="">Bootstrap Admin Template</a>
+                @ 2023 Creativelabs
+            </div>
+            <div class="ms-auto">
+                Powered by
+                <a href="">CoreUI PRO UI Components</a>
+    
+            </div>
+    
+        </footer>
+        
+                    </div>
+
+                </div>
+
+
+              
+            </div>  
+    </div>
+    </div> 
+
+
+<!-- 
+     <script>
+        $(document).ready(function(){
+            $("button").click(function(){
+                $(".nav").fadeToggle(0);
+            })  
+        })
+    </script> -->
+
+
+
+
+<script>
+    $(document).ready(function(){
+        $("#kk").click(function(){
+            $(".nav").fadeToggle(0);
+        })  
+    })
+</script>
+</body>
+</html>

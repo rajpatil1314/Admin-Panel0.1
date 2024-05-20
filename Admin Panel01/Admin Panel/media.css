@@ -1,0 +1,71 @@
+@media(min-width:576px) and (max-width:767px)
+{
+    .ww 
+    {
+        padding-left: 10px;
+    }
+    .nav 
+    {
+        display: none;
+    }
+    .notify i 
+    {
+        padding: 7px;
+    }
+    .navbar-toggler i
+    {
+       
+       color: black;
+    }
+}
+@media(min-width:768px) and (max-width:991px) 
+{
+
+
+    .nav 
+    {
+        display: none;
+    }
+    .ww 
+    {
+        padding-left: 10px;
+    }
+    .notify i 
+    {
+        padding: 7px;
+    }
+    .navbar-toggler
+    {
+       background-color: black;
+       color: white;  
+    }
+    .navbar-toggler button
+    {
+        height: 10px;
+    }
+    .myChart
+    {
+        height: 500px;
+    }
+    /* .navbar-toggler-icon
+    {
+        color: black;
+    } */
+ 
+    
+}
+@media (min-width:992px) and (max-width:1199px)
+{
+    .nav 
+    {
+        width: 30%;
+    }
+    .ww 
+    {
+        padding-left: 10px;
+    }
+    .notify i 
+    {
+        padding: 7px;
+    }
+}
